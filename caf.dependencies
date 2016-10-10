@@ -1,20 +1,20 @@
 [
-  {
-    "repository": "caf-staging/android_device_oppo_common",
-    "target_path": "device/oppo/common",
-    "remote": "github",
-    "branch":       "n"
-  },
-  {
-    "repository": "caf-staging/android_vendor_oneplus_oneplus2",
-    "target_path": "vendor/oneplus/oneplus2",
-    "remote": "github",
-    "branch":       "n"
-  },
-  {
-    "repository": "caf-staging/android_kernel_oneplus_msm8994",
-    "target_path": "kernel/oneplus/msm8994",
-    "remote": "github",
-    "branch":       "n"
-  }
+   {
+      "repository":"android_device_oppo_common",
+      "target_path":"device/oppo/common",
+      "remote":"cs",
+      "branch":"n"
+   },
+   {
+      "repository":"android_vendor_oneplus_oneplus2",
+      "target_path":"vendor/oneplus/oneplus2",
+      "remote":"cs",
+      "branch":"n"
+   },
+   {
+      "repository":"android_kernel_oneplus_msm8994",
+      "target_path":"kernel/oneplus/msm8994",
+      "remote":"cs",
+      "branch":"n"
+   }
 ]
