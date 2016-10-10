@@ -20,9 +20,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/oneplus/oneplus2/device.mk)
 
 # Inherit some common XOS stuff.
-$(call inherit-product, vendor/xos/config/common.mk)
+$(call inherit-product, vendor/caf/common.mk)
 
-PRODUCT_NAME := XOS_oneplus2
+PRODUCT_NAME := caf_oneplus2
 PRODUCT_DEVICE := oneplus2
 PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_BRAND := OnePlus
@@ -33,6 +33,6 @@ TARGET_VENDOR_PRODUCT_NAME := OnePlus2
 TARGET_VENDOR_DEVICE_NAME := OnePlus2
 PRODUCT_BUILD_PROP_OVERRIDES += TARGET_DEVICE=OnePlus2 PRODUCT_NAME=OnePlus2
 
-PRODUCT_SYSTEM_PROPERTY_BLACKLIST += ro.product.model
+#PRODUCT_SYSTEM_PROPERTY_BLACKLIST += ro.product.model
 
 TARGET_VENDOR := oneplus
